@@ -4,7 +4,6 @@ A web-based visualization tool that demonstrates how Prim’s algorithm can effi
 
 This interactive app lets users choose locations, set a starting point, and watch the optimal network being built in real-time on a map.
 
-⸻
 
 ✨ Features
 	•	🔎 Dynamic Location Search – Search any location worldwide using the OpenStreetMap (Nominatim) API.
@@ -22,7 +21,6 @@ This interactive app lets users choose locations, set a starting point, and watc
 	2.	Add Other Locations – Add up to 4 other destinations (shown in blue).
 	3.	Visualize the Network – The app auto-zooms to fit all locations. Use animation controls to watch Prim’s algorithm construct the optimal network step by step.
 
-⸻
 
 🛠️ Getting Started
 
@@ -41,7 +39,6 @@ npm run dev
 
 Now open 👉 http://localhost:5173 in your browser.
 
-⸻
 
 🧩 Tech Stack
 	•	⚛️ React (Vite)
@@ -49,17 +46,8 @@ Now open 👉 http://localhost:5173 in your browser.
 	•	🗺️ Leaflet.js
 	•	🌍 OpenStreetMap (Nominatim API)
 
-⸻
 
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit pull requests.
-
-⸻
-
-📜 License
-
-This project is licensed under the MIT License – free to use and modify.
-
-⸻
