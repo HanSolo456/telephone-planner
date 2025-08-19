@@ -3,7 +3,7 @@
 An interactive web-based tool that demonstrates how **Prim's algorithm** can efficiently design a telecommunication network connecting multiple locations.  
 
 ## 🌐 Live Demo  
-> Coming soon on Vercel/Netlify...  
+> https://telephoneplanner.netlify.app
 
 ## 🚀 Features  
 - 🔎 **Dynamic Location Search** – Worldwide search powered by OpenStreetMap (Nominatim API).  
