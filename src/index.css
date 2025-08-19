@@ -1,0 +1,18 @@
+/* src/index.css */
+/* src/index.css */
+
+@import 'tailwindcss';
+
+
+body, #root {
+  height: 100vh; /* vh stands for viewport height. 100 means 100% of the screen height */
+  width: 100vw; /* vw stands for viewport width. 100 means 100% of the screen width */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* This prevents unnecessary scrollbars */
+}
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+}
