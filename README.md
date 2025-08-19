@@ -1,74 +1,71 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+📡 Prim’s Algorithm Telecom Network Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based visualization tool that demonstrates how Prim’s algorithm can efficiently design a telecommunication network connecting multiple locations.
 
-Currently, two official plugins are available:
+This interactive app lets users choose locations, set a starting point, and watch the optimal network being built in real-time on a map.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⸻
 
-## Expanding the ESLint configuration
+✨ Features
+	•	🔎 Dynamic Location Search – Search any location worldwide using the OpenStreetMap (Nominatim) API.
+	•	🎯 User-Defined Start Node – Choose the primary starting point for the network.
+	•	🗺️ Interactive Map Visualization – Displays locations and network connections on a Leaflet map.
+	•	🧮 Classic Prim’s Algorithm – Computes the Minimum Spanning Tree (MST) based on shortest geographical distance.
+	•	🎬 Step-by-Step Animation – Watch the algorithm build the network with play, pause, and reset controls.
+	•	📊 Real-Time Insights – Sidebar shows total network length as it builds.
+	•	🎨 Modern UI – Clean, responsive design with Tailwind CSS.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+⸻
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🚀 How It Works
+	1.	Choose a Starting Point – Search for your main village/city. This appears in red.
+	2.	Add Other Locations – Add up to 4 other destinations (shown in blue).
+	3.	Visualize the Network – The app auto-zooms to fit all locations. Use animation controls to watch Prim’s algorithm construct the optimal network step by step.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+⸻
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🛠️ Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+git clone https://github.com/HanSolo456/telephone-planner.git
+cd telephone-planner
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# -telecom-network-planner
->>>>>>> 7a31b5c351c78e71fc5f96fce9503f3ebb65b01c
-# telephone-planner
+2. Install dependencies
+
+npm install
+
+3. Run the development server
+
+npm run dev
+
+Now open 👉 http://localhost:5173 in your browser.
+
+⸻
+
+📷 Demo Preview
+
+(You can add a screenshot or GIF here later, e.g. ![Demo Screenshot](screenshot.png))
+
+⸻
+
+🧩 Tech Stack
+	•	⚛️ React (Vite)
+	•	🎨 Tailwind CSS
+	•	🗺️ Leaflet.js
+	•	🌍 OpenStreetMap (Nominatim API)
+
+⸻
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit pull requests.
+
+⸻
+
+📜 License
+
+This project is licensed under the MIT License – free to use and modify.
+
+⸻
