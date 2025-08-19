@@ -43,12 +43,6 @@ Now open 👉 http://localhost:5173 in your browser.
 
 ⸻
 
-📷 Demo Preview
-
-(You can add a screenshot or GIF here later, e.g. ![Demo Screenshot](screenshot.png))
-
-⸻
-
 🧩 Tech Stack
 	•	⚛️ React (Vite)
 	•	🎨 Tailwind CSS
