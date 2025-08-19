@@ -1,5 +1,3 @@
-// src/App.tsx
-
 import React, { useState, useEffect, useMemo } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Tooltip, Polyline, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -104,7 +102,6 @@ function App() {
   };
   
   const handleStartAlgorithm = () => {
-    // Always reset before generating network
     setIsPlaying(false);
     setAnimationStep(0);
     if (mode === 'csv' && csvData.length > 0 && csvStartNodeId) {
@@ -157,7 +154,6 @@ function App() {
   const edgesToDraw = animationSequence.slice(0, animationStep);
   const totalLength = edgesToDraw.reduce((sum, edge) => sum + (edge.distance || 0), 0);
 
-  // Compose search nodes list for UI with radio buttons to select start node
   const canStart =
     (mode === 'csv' && csvData.length > 0 && csvStartNodeId !== null) ||
     (mode === 'search' && searchOtherNodes.length > 0 && searchStartNodeId !== null);
